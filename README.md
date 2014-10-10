@@ -1,4 +1,4 @@
-Android-Next-Bus-App
+Android Next Bus App
 ====================
 
 Technologies used: Java, JUnit, Android API, OSMDroid API, TransLink API, XML
