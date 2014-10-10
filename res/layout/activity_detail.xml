@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:weightSum="5">
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="4">
+        
+        <LinearLayout
+            android:id="@+id/stop_list_container"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:background="@drawable/border">   
+        </LinearLayout>
+        
+    	<LinearLayout
+    	    android:id="@+id/wait_times_container"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="0dip"
+    	    android:layout_weight="1"
+    	    android:orientation="vertical"
+    	    android:padding="4dp"
+    	    android:background="@drawable/border">
+
+    		<TextView
+    		    android:id="@+id/bus_wait_times_title"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:text="@string/title_next_bus"
+    		    android:textStyle="bold"/>
+
+ 		    <TextView
+    		    android:id="@+id/bus_wait_times"
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+    		    android:text="" 
+    		    android:scrollbars="vertical"/>	    
+    	</LinearLayout> 
+    </LinearLayout>
+       
+    <FrameLayout 
+        android:id="@+id/map_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="1pt"
+        android:background="@drawable/border"
+        android:layout_weight="4">
+    </FrameLayout>
+    
+ </LinearLayout>

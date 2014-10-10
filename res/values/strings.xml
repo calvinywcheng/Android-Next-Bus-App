@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">NextBus</string>
+    <string name="title_detail">Favourites</string>
+    <string name="title_next_bus">Next Bus</string>
+    <string name="ok">OK</string>
+    <string name="no_data">Add a stop&#8230;</string>
+	<string name="add_stop">Add Stop</string>
+	<string name="map_stops">Map View</string>
+	<string name="delete_stop">Delete Stop?</string>
+	<string name="add_stop_title">Enter Stop</string>
+	<string name="about">About</string>
+	<string name="legend">Route and arrival data used in this 
+	    product or service is provided by permission of TransLink. 
+	    TransLink assumes no responsibility for the accuracy or 
+	    currency of the data used in this product or service.</string>
+	<string name="osm_credit">\u00A9 OpenStreetMap contributors</string>
+</resources>
